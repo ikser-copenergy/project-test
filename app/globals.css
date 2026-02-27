@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --accent: #0d9488;
+  --accent-light: #5eead4;
+  --accent-dark: #0f766e;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+}
