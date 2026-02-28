@@ -1,4 +1,4 @@
-import { ShoppingList } from "@/components/shopping/ShoppingList";
+import { ShoppingList } from "@/components/meal-planer/shopping/ShoppingList";
 
 export default function ShoppingPage() {
   return (

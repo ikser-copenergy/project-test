@@ -1,4 +1,4 @@
-import { DishList } from "@/components/dishes/DishList";
+import { DishList } from "@/components/meal-planer/dishes/DishList";
 
 export default function DishesPage() {
   return (

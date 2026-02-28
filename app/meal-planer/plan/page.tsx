@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { startOfWeek, addDays, addWeeks, format } from "date-fns";
-import { SingleDayView } from "@/components/plan/WeekView";
+import { SingleDayView } from "@/components/meal-planer/plan/WeekView";
 
 const DAYS_TOTAL = 14;
 

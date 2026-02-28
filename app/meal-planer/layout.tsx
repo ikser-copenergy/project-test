@@ -1,6 +1,6 @@
 import { PlanProvider } from "@/lib/store";
-import { Header } from "@/components/layout/Header";
-import { Nav } from "@/components/layout/Nav";
+import { Header } from "@/components/meal-planer/layout/Header";
+import { Nav } from "@/components/meal-planer/layout/Nav";
 
 export default function MealPlanerLayout({
   children,

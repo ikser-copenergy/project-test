@@ -2,7 +2,7 @@
 
 import { format } from "date-fns";
 import { usePlan } from "@/lib/store";
-import { FeedbackChip } from "@/components/plan/FeedbackChip";
+import { FeedbackChip } from "@/components/meal-planer/plan/FeedbackChip";
 import type { FeedbackRating } from "@/lib/types";
 
 export function TodayMenu() {

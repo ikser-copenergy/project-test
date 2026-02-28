@@ -1,4 +1,4 @@
-import { TodayMenu } from "@/components/today/TodayMenu";
+import { TodayMenu } from "@/components/meal-planer/today/TodayMenu";
 
 export default function TodayPage() {
   return <TodayMenu />;
