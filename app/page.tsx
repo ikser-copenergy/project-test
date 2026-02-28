@@ -1,8 +1,9 @@
 import Link from "next/link";
-import { UtensilsCrossed, CreditCard } from "lucide-react";
+import { UtensilsCrossed, CreditCard, Pill } from "lucide-react";
 
 const demos = [
   { href: "/meal-planer", label: "Meal planner", description: "Weekly meal planning for families", icon: UtensilsCrossed },
+  { href: "/pharmacy", label: "Pharmacy inventory", description: "Drugstore or pharmacy stock management", icon: Pill },
   { href: "/pos", label: "POS", description: "Point of sale demo", icon: CreditCard },
 ];
 
