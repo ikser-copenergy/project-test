@@ -280,7 +280,7 @@ const initialState: PharmacyState = {
   products: initialProducts,
   batches: initialBatches,
   adjustments: initialAdjustments,
-  currentRole: "pharmacist",
+  currentRole: "admin",
 };
 
 export function PharmacyProvider({ children }: { children: ReactNode }) {

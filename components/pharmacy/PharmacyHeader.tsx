@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePharmacy } from "@/lib/pharmacy-store";
 import type { UserRole } from "@/lib/pharmacy-types";
 
@@ -18,24 +17,16 @@ export function PharmacyHeader() {
             Manage drugstore stock
           </p>
         </div>
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-2">
-            <span className="text-sm text-gray-600">View as:</span>
-            <select
-              value={currentRole}
-              onChange={(e) => setRole(e.target.value as UserRole)}
-              className="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm text-gray-900 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
-            >
-              <option value="pharmacist">Pharmacist</option>
-              <option value="admin">Admin</option>
-            </select>
-          </div>
-          <Link
-            href="/"
-            className="shrink-0 text-sm text-gray-500 hover:text-accent"
+        <div className="flex items-center gap-2">
+          <span className="text-sm text-gray-600">View as:</span>
+          <select
+            value={currentRole}
+            onChange={(e) => setRole(e.target.value as UserRole)}
+            className="rounded-lg border border-gray-300 bg-white px-3 py-1.5 text-sm text-gray-900 focus:border-accent focus:outline-none focus:ring-1 focus:ring-accent"
           >
-            Back to demos
-          </Link>
+            <option value="pharmacist">Pharmacist</option>
+            <option value="admin">Admin</option>
+          </select>
         </div>
       </div>
     </header>
