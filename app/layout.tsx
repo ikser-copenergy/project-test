@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { PlanProvider } from "@/lib/store";
-import { Header } from "@/components/layout/Header";
-import { Nav } from "@/components/layout/Nav";
 
 export const metadata: Metadata = {
-  title: "Meal planner",
-  description: "Weekly meal planning for families",
+  title: "Demos",
+  description: "Demo apps",
 };
 
 export default function RootLayout({
@@ -16,14 +13,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        <PlanProvider>
-          <div className="min-h-screen flex flex-col">
-            <Header />
-            <Nav />
-            <main className="flex-1 p-4 md:p-6">{children}</main>
-          </div>
-        </PlanProvider>
+      <body className="min-h-screen bg-gray-50 text-gray-900 antialiased">
+        {children}
       </body>
     </html>
   );
