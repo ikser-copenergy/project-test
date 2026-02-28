@@ -2,7 +2,7 @@ import { PlanProvider } from "@/lib/store";
 import { Header } from "@/components/meal-planer/layout/Header";
 import { Nav } from "@/components/meal-planer/layout/Nav";
 
-export default function MealPlanerLayout({
+export default function PlanLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;

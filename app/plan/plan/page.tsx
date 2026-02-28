@@ -6,7 +6,7 @@ import { SingleDayView } from "@/components/meal-planer/plan/WeekView";
 
 const DAYS_TOTAL = 14;
 
-export default function PlanPage() {
+export default function WeeklyPlanPage() {
   const today = new Date();
   const thisWeekStart = startOfWeek(today, { weekStartsOn: 1 });
   const nextWeekStart = addWeeks(thisWeekStart, 1);

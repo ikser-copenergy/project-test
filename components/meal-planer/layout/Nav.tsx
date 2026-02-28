@@ -6,10 +6,10 @@ import { usePathname } from "next/navigation";
 import { Calendar, List, UtensilsCrossed, ShoppingCart, Menu, X } from "lucide-react";
 
 const links = [
-  { href: "/meal-planer/today", label: "Today menu", icon: List },
-  { href: "/meal-planer/plan", label: "Weekly plan", icon: Calendar },
-  { href: "/meal-planer/dishes", label: "Dishes", icon: UtensilsCrossed },
-  { href: "/meal-planer/shopping", label: "Shopping list", icon: ShoppingCart },
+  { href: "/plan/today", label: "Today menu", icon: List },
+  { href: "/plan/plan", label: "Weekly plan", icon: Calendar },
+  { href: "/plan/dishes", label: "Dishes", icon: UtensilsCrossed },
+  { href: "/plan/shopping", label: "Shopping list", icon: ShoppingCart },
 ];
 
 export function Nav() {
